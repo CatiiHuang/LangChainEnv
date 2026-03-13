@@ -7,14 +7,17 @@
     "dev3": "ts-node 03-SubGraph.ts",
     "dev4": "ts-node 04-Interrupt.ts",
     "dev5": "ts-node  05-SimpleAgent.ts",
-    "dev6": "ts-node  06-SimpleAgentProxy.ts"
+    "dev6": "ts-node  06-SimpleAgentProxy.ts",
+    "dev8": "ts-node  08.Midscene.ts"
   },
   "dependencies": {
     "@langchain/core": "^1.1.27",
     "@langchain/langgraph": "^1.1.5",
     "@langchain/openai": "^1.2.12",
+    "@midscene/computer": "^1.5.4",
     "https-proxy-agent": "^7.0.6",
     "langchain": "^1.2.30",
+    "page-agent": "^1.5.6",
     "undici": "^7.22.0"
   },
   "devDependencies": {
